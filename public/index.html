@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Router Demo</title>
+</head>
+<body>
+  <label for="">Student lookup by ID</label>
+  <form action="/student/report" method="post">
+    <input type="text" name="studentId" id="studentId">
+    <button type="submit">Submit</button>
+  </form>
+  <br>
+  <br>
+
+  <form action="/student/newUser" method="post">
+    <label for="">Create Account</label>
+    <BR>
+    <input type="number" name="id" id="userId" placeholder="ID">
+    <BR>
+    <input type="email" name="email" id="email" placeholder="Email">
+    <BR>
+    <input type="text" name="first_name" id="first_name" placeholder="First Name">
+    <BR>
+    <input type="text" name="last_name" id="last_name" placeholder="Last Name">
+    <BR>
+    <button type="submit">Submit</button>
+  </form>
+  
+</body>
+</html>
