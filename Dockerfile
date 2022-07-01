@@ -12,4 +12,8 @@ CMD ["npm", "start"]
 
 LABEL maintainer="jonas"
 
-LABEL description=""
+LABEL description="This project is a simple user manager. It allows the admin to view users data."
+
+LABEL cohort="14"
+
+LABEL animal="Polar Bear"
